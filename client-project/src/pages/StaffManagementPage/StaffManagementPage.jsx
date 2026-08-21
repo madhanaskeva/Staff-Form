@@ -14,14 +14,15 @@ const StaffManagementPage = () => {
         </div>
         <div className="action-section">
           <Input 
+            size="large"
             className="search-input"
             placeholder="Search by email or role..." 
             prefix={<SearchOutlined style={{ color: '#d9d9d9' }} />} 
           />
-          <Button className="refresh-btn" icon={<ReloadOutlined />}>
+          <Button size="large" className="refresh-btn" icon={<ReloadOutlined />}>
             Refresh
           </Button>
-          <Button type="primary" className="new-user-btn" icon={<PlusOutlined />}>
+          <Button size="large" type="primary" className="new-user-btn" icon={<PlusOutlined />}>
             New User
           </Button>
         </div>

@@ -23,7 +23,7 @@ const StaffTable = () => {
       render: (text, record) => (
         <div className="user-column">
           <Avatar 
-            style={{ backgroundColor: '#e6f7ef', color: '#18a058', marginRight: '12px' }}
+            style={{ backgroundColor: '#d1fae5', color: '#059669', marginRight: '12px', fontWeight: 600 }}
             size="large"
           >
             {record.avatarInitials}
@@ -39,6 +39,7 @@ const StaffTable = () => {
       title: 'PASSWORD',
       dataIndex: 'password',
       key: 'password',
+      align: 'center',
       render: () => (
         <div className="password-column">
           <span className="password-dots">••••••••</span>
@@ -50,8 +51,17 @@ const StaffTable = () => {
       title: 'ROLE',
       dataIndex: 'role',
       key: 'role',
+      align: 'center',
+      className: 'role-col',
       render: (role) => (
-        <Tag color="success" style={{ borderRadius: '12px', padding: '0 12px', fontWeight: 600 }}>
+        <Tag style={{ 
+          borderRadius: '12px', 
+          padding: '2px 14px', 
+          fontWeight: 600,
+          color: '#059669',
+          backgroundColor: '#d1fae5',
+          border: 'none'
+        }}>
           {role}
         </Tag>
       )
@@ -59,6 +69,8 @@ const StaffTable = () => {
     {
       title: 'ACTIONS',
       key: 'actions',
+      align: 'center',
+      className: 'actions-col',
       render: () => (
         <Space size="middle" className="actions-space">
           <Button type="text" className="action-btn view-btn" icon={<SafetyCertificateOutlined />}>
@@ -109,7 +121,7 @@ const StaffTable = () => {
           showSizeChanger: true,
           pageSizeOptions: ['10', '20', '50']
         }}
-        bordered={true}
+        bordered={false}
         rowClassName="table-row"
       />
     </div>

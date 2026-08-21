@@ -37,25 +37,30 @@
 }
 
 .search-input {
-  width: 250px;
-  border-radius: 20px;
+  width: 280px;
+  height: 40px !important;
+  border-radius: 9999px;
 }
 
 .refresh-btn {
-  border-radius: 20px;
-  color: #595959;
+  border-radius: 9999px;
+  color: #4b5563;
+  height: 40px !important;
+  padding: 0 24px !important;
 }
 
 .new-user-btn {
-  background-color: #fa8c16;
-  border-color: #fa8c16;
-  border-radius: 20px;
+  background-color: #e8a130;
+  border-color: #e8a130;
+  border-radius: 9999px;
   font-weight: 500;
+  height: 40px !important;
+  padding: 0 24px !important;
 }
 
 .new-user-btn:hover, .new-user-btn:focus {
-  background-color: #d46b08 !important;
-  border-color: #d46b08 !important;
+  background-color: #d68d25 !important;
+  border-color: #d68d25 !important;
 }
 
 .page-content {
