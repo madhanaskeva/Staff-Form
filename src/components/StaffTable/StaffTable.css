@@ -1,0 +1,113 @@
+.table-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #f0f0f0;
+  overflow: hidden;
+  padding-bottom: 12px;
+}
+
+.user-column {
+  display: flex;
+  align-items: center;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: 600;
+  color: #333333;
+}
+
+.user-email {
+  font-size: 13px;
+  color: #8c8c8c;
+}
+
+.password-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.password-dots {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #8c8c8c;
+}
+
+.actions-space {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.action-btn {
+  border-radius: 20px !important;
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  height: 28px !important;
+  padding: 4px 12px !important;
+  border: 1px solid transparent !important;
+}
+
+.view-btn {
+  color: #1d4ed8 !important;
+  background-color: #eff6ff !important;
+  border-color: transparent !important;
+}
+
+.update-btn {
+  color: #c2410c !important;
+  background-color: #ffedd5 !important;
+  border-color: transparent !important;
+}
+
+.edit-btn {
+  color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+  background-color: transparent !important;
+}
+
+.delete-btn {
+  color: #dc2626 !important;
+  background-color: #fef2f2 !important;
+  border-color: transparent !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #ffffff !important;
+  color: #8c8c8c !important;
+  font-weight: 600 !important;
+  font-size: 13px;
+}
+
+.ant-table-thead > tr > th:nth-child(4)::before {
+  display: none !important;
+  content: none !important;
+  width: 0 !important;
+}
+
+.ant-table-wrapper .ant-table-container {
+  border: none !important;
+}
+
+.ant-table-wrapper .ant-table {
+  border-radius: 0;
+}
+
+.ant-pagination-item-active {
+  border-color: #e8a130 !important;
+}
+
+.ant-pagination-item-active a {
+  color: #e8a130 !important;
+}
+
+.ant-table-wrapper .ant-pagination {
+  padding-right: 24px;
+}
+
