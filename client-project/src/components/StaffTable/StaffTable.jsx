@@ -57,7 +57,7 @@ const StaffTable = () => {
         <Tag style={{ 
           borderRadius: '12px', 
           padding: '2px 14px', 
-          fontWeight: 600,
+          fontWeight: 700,
           color: '#059669',
           backgroundColor: '#d1fae5',
           border: 'none'
